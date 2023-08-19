@@ -1,0 +1,17 @@
+.container {
+  padding: 24px;
+}
+
+.eventCardsContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.formContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 36px;
+}

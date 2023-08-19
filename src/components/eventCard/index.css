@@ -1,0 +1,50 @@
+.cardContainer {
+  background-color: aqua;
+  width: 180px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.cardContainer > div:first-child {
+  background-color: blue;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+  
+.eventDetails {
+  padding: 8px;
+}
+
+.buyButton {
+  cursor: pointer;
+}
+
+.cardQuantityContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px;
+}
+
+.cardQuantityButton {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.cardQuantityDisplay {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
